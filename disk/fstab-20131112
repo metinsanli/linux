@@ -1,0 +1,16 @@
+#
+# Linux mt 3.8.0-25-generic #37-Ubuntu SMP Thu Jun 6 20:47:07 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+#
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda1 during installation
+UUID=1acde6e4-c8a6-4cd2-afc1-64f4c7c83557 /               ext4    noatime,discard,errors=remount-ro 0       1
+# swap was on /dev/sda5 during installation
+UUID=34aaa9c0-895c-40a7-9d8d-4ef933ddfd3f none            swap    sw              0       0
+# harici disk baglama
+UUID="340681A606816A26" /media/tera ntfs-3g uid=1000,gid=1000,umask=0022,sync,auto,nosuid,rw,nouser 0 0
