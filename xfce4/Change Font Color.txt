@@ -1,3 +1,6 @@
+How to Change Font Color on the Linux Mint Xfce Desktop
+-------------------------------------------------------
+
 In Linux Mint Maya Xfce, if you choose a dark background, the desktop's black font suffers from lack of contrast. There is no GUI option for changing the desktop's font color. To get a light-colored font, perform the following steps:
 
 Open Thunar, your File Manager, and navigate to /home/[your user name].
