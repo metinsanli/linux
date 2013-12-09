@@ -4,8 +4,7 @@
 #### AMD Catalyst Control Center'ın açılması için yapılacaklar :
 ```sudo gedit /etc/environment```
 
-*PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"*
-
 __LANGUAGE=”tr_TR:tr:en_GB:en” LANG=”tr_TR.UTF-8″__
 
 
+<img src="https://raw.github.com/metinsanli/linux/master/zz-resim/driver-manager-00.png">
