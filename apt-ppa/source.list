@@ -1,0 +1,44 @@
+deb http://archive.getdeb.net/ubuntu/ raring-getdeb apps games
+
+deb http://ppa.launchpad.net/xorg-edgers/ppa/ubuntu raring main
+deb-src http://ppa.launchpad.net/xorg-edgers/ppa/ubuntu raring main
+deb http://ppa.launchpad.net/danielrichter2007/grub-customizer/ubuntu raring main
+deb-src http://ppa.launchpad.net/danielrichter2007/grub-customizer/ubuntu raring main
+### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+# You may comment out this entry, but any other modifications may be lost.
+deb http://dl.google.com/linux/chrome/deb/ stable main
+### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+# You may comment out this entry, but any other modifications may be lost.
+deb http://dl.google.com/linux/musicmanager/deb/ stable main
+###
+### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+# You may comment out this entry, but any other modifications may be lost.
+deb http://dl.google.com/linux/talkplugin/deb/ stable main
+
+# deb file:///usr/share/local-repository/ binary/
+
+
+deb http://ppa.launchpad.net/musicbrainz-developers/stable/ubuntu raring main
+deb-src http://ppa.launchpad.net/musicbrainz-developers/stable/ubuntu raring main
+deb http://packages.linuxmint.com/ olivia main upstream import 
+
+deb http://archive.ubuntu.com/ubuntu/ raring main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ raring-updates main restricted universe multiverse
+
+deb http://security.ubuntu.com/ubuntu/ raring-security main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu/ raring partner
+deb http://ppa.launchpad.net/openshot.developers/ppa/ubuntu quantal main
+deb-src http://ppa.launchpad.net/openshot.developers/ppa/ubuntu quantal main
+deb http://plex.r.worldssl.net/PlexMediaServer/ubuntu-repo lucid main
+deb http://ppa.launchpad.net/rgibert/ebook/ubuntu raring main
+deb-src http://ppa.launchpad.net/rgibert/ebook/ubuntu raring main
+deb http://ppa.launchpad.net/tomahawk/ppa/ubuntu raring main
+deb-src http://ppa.launchpad.net/tomahawk/ppa/ubuntu raring main
+deb http://ppa.launchpad.net/tuxpoldo/btsync/ubuntu raring main
+deb-src http://ppa.launchpad.net/tuxpoldo/btsync/ubuntu raring main
+deb http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu raring main
+deb-src http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu raring main
+deb http://ppa.launchpad.net/videolan/stable-daily/ubuntu raring main
+deb-src http://ppa.launchpad.net/videolan/stable-daily/ubuntu raring main
+deb http://ppa.launchpad.net/webupd8team/java/ubuntu/ raring main
+deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu/ raring main
