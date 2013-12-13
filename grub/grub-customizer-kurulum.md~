@@ -1,10 +1,5 @@
 #### Grub Customizer kurulumu
 
 ```sudo add-apt-repository ppa:danielrichter2007/grub-customizer```
-
 ```sudo apt-get update```
-
 ```sudo apt-get install grub-customizer```
-
-<img src="https://github.com/metinsanli/linux/raw/master/zz-resim/grub-customizer-00.png">
-
