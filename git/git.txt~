@@ -34,4 +34,4 @@ $ ssh -T git@github.com
 
 ---
 şifre sormasın :
-git remote set-url origin git@github.com:kullanici/deneme.git
+git config remote.origin.url https://{USERNAME}:{PASSWORD}@github.com/{USERNAME}/{REPONAME}.git
