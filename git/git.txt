@@ -15,8 +15,7 @@ git remote set-url origin git@github.com:kullanici/deneme.git
 git checkout master
 git pull --rebase origin //webden değişiklik yaptığında, localde bunu kullan
 
-------
-
+-o-
 
 SSH AYARLARI :
 
@@ -32,6 +31,16 @@ $ xclip -sel clip < ~/.ssh/id_rsa.pub
 
 $ ssh -T git@github.com
 
----
+-o-
 şifre sormasın :
 git remote set-url origin git@github.com:kullanici/deneme.git
+
+-o-
+
+silme :
+git rm dosyaadi
+git commit -m "silindi"
+git push -u origin master
+-o-
+
+
