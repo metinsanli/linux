@@ -8,39 +8,53 @@ So lets get on and install it, on this set-up I am running a Ubuntu Server 12.04
 
 So first up we need to install the software, so now run the following command from the terminal:
 
-**apt-get install minidlna**
+$ **sudo apt-get install minidlna**
 
 If you don’t already have folders for storing your movies, music and photo’s you should create them like so:
 
-**mkdir /home/metin/Müzik/**
-**mkdir /home/metin/Resimler/**
-**mkdir /home/metin/Videolar/**
+$ **mkdir /home/metin/Müzik/**
 
-Now we need to edit the _/etc/minidlna.conf_ file, you should edit it to make it look as follows:-
+$ **mkdir /home/metin/Resimler/**
+
+$ **mkdir /home/metin/Videolar/**
+
+Now we need to edit the **/etc/minidlna.conf** file, you should edit it to make it look as follows:-
 
 *port=8200*
-*media_dir=A,/media/Music*
-*media_dir=P,/media/Pictures*
-*media_dir=V,/media/Videos*
+
+*media_dir=A,/home/metin/Müzik/*
+
+*media_dir=P,/home/metin/Resimler/*
+
+*media_dir=V,/home/metin/Videolar/*
+
 *friendly_name=Bobbys DLNA Server*
+
 *inotify=yes*
+
 *enable_tivo=no*
+
 *strict_dlna=no*
+
 *notify_interval=900*
+
 *serial=12345678*
+
 *model_number=1*
 
 Now it’s time to reload the minidlna daemon and all should now be working, try connecting and streaming some content from one of you devices!
 
-**sudo /etc/init.d/minidlna force-reload**
+$ **sudo service minidlna force-reload**
 
 Please note that when changing the settings (such as media paths) in the configuration file you should execute the following command to rebuild the media database:
 
-**sudo minidlna -R**
+$ **sudo minidlna -R**
 
 You may find that adding the above command as a daily cronjob will keep your media library in sync and keeping track of all new movies, videos and photos.
 
 So your new DLNA server should now be found on your devices and you should now be able to browse your media and stream them!
+
+minidlna database folder : **/var/lib/minidlna/**
 
 Hope you enjoy!
 
