@@ -14,13 +14,15 @@ After the installation run in terminal:
 
 __sudo hwinfo --framebuffer__
 
-*take note of the highest resolution that your display can support when running Plymouth.
+* take note of the highest resolution that your display can support when running Plymouth.
+
+----------------------------------------------------------------------------------
 
 Still in terminal:
 
 __gksu gedit /etc/default/grub__
 
-*this will bring up the text editor for GRUB configuration.
+* this will bring up the text editor for GRUB configuration.
 
 On the text editor find the line:
 
@@ -40,21 +42,21 @@ and change it into:
 
 save and exit.
 
-*replace the resolution with the highest resolution that your display supports as listed in **hwinfo --framebuffer**.
+* replace the resolution with the highest resolution that your display supports as listed in **hwinfo --framebuffer**.
 
+----------------------------------------------------------------------------------
 
 Still in terminal input:
 
 __gksu gedit /etc/initramfs-tools/modules__
 
-*this will again bring you a text editor.
-
-Scroll to the end of the page and insert:
+this will again bring you a text editor. Scroll to the end of the page and insert:
 
 **uvesafb mode_option=1024x768-24 mtrr=3 scroll=ywrap**
 
 save and exit.
 
+----------------------------------------------------------------------------------
 
 Type in terminal:
 
