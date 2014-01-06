@@ -5,7 +5,7 @@
 * "*DOWNLOAD FOR OTHER PLATFORMS*" açın, "*SDK Tools Only*" tablosundaki "*Linux
 32 & 64-bit*" .tgz uzantılı dosyayı indirin.
 
-<img src=""/>
+<img src="https://raw.github.com/metinsanli/linux/master/zz-resim/adk-kurulum-00.png"/>
 
 * Terminali açın.
 
