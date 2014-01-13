@@ -29,9 +29,9 @@ Good on you for trying out Linux!
 <br><br>If this runs without a hitch, quickly test that everything is working as it should:
 <br><br><code>fglrxinfo</code>
 <br><br>If you receive something like this as an output, you're all set:
-<br><br><code>display: :0.0  screen: 0
-<br><code>OpenGL vendor string: ATI Technologies Inc.
-<br><code>OpenGL renderer string: ATI Radeon HD 4550 *<small>(This line may be different depending on what graphics card you are using.)</small>*
-<br><code>OpenGL version string: 3.3.11566 Compatibility Profile Context *<small>(This line may be different depending on what graphics card and Catalyst version you are using.)</small>*
+<br><br>*display: :0.0  screen: 0*
+<br>*OpenGL vendor string: ATI Technologies Inc.*
+<br>*OpenGL renderer string: ATI Radeon HD 4550* *<small>(This line may be different depending on what graphics card you are using.)</small>*
+<br>*OpenGL version string: 3.3.11566 Compatibility Profile Context* *<small>(This line may be different depending on what graphics card and Catalyst version you are using.)</small>*
 <br><br>Remember, if you have any problems with the install, refer yourself to the tutorial on wiki.cchtml.com.
 <br><br>Good luck!
