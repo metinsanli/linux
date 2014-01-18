@@ -15,3 +15,14 @@
 <br><code>sudo add-apt-repository "deb http://www.bunkus.org/ubuntu/saucy/ ./"</code>&larr;
 <br><code>sudo apt-get update</code>&larr;
 <br><code>sudo apt-get install mkvtoolnix mkvtoolnix-gui</code>&larr;
+<br><br>
+* **Spotify Music Player**
+<br><code>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59</code>&larr;
+<br><code>sudo add-apt-repository "deb http://repository.spotify.com stable non-free"</code>&larr;
+<br><code>sudo apt-get update</code>&larr;
+<br><code>sudo apt-get install spotify-client</code>&larr;
+<br><br>
+* **VLC Media Player**
+<br><code>sudo add-apt-repository ppa:videolan/stable-daily</code>&larr;
+<br><code>sudo apt-get update</code>&larr;
+<br><code>sudo apt-get install vlc</code>&larr;
