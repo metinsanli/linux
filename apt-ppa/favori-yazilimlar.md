@@ -26,3 +26,8 @@
 <br><code>sudo add-apt-repository ppa:videolan/stable-daily</code>&larr;
 <br><code>sudo apt-get update</code>&larr;
 <br><code>sudo apt-get install vlc</code>&larr;
+<br><br>
+* **Grub Customizer**
+<br><code>sudo add-apt-repository ppa:danielrichter2007/grub-customizer</code>&larr;
+<br><code>sudo apt-get update</code>&larr;
+<br><code>sudo apt-get install grub-customizer</code>&larr;
