@@ -31,3 +31,8 @@
 <br><code>sudo add-apt-repository ppa:danielrichter2007/grub-customizer</code>&larr;
 <br><code>sudo apt-get update</code>&larr;
 <br><code>sudo apt-get install grub-customizer</code>&larr;
+<br><br>
+* **ReText Markdown Editor**
+<br><code>sudo add-apt-repository ppa:mitya57</code>&larr;
+<br><code>sudo apt-get update</code>&larr;
+<br><code>sudo apt-get install retext</code>&larr;
