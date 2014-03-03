@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LCD-OFF
+GenericName=LCD-OFF
+Comment=LCD ekrani kapatir.
+Exec=xset dpms force off
+Icon=xfpm-ac-adapter
+Type=Application
+Categories=XFCE;GTK;Settings;Utility;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;

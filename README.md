@@ -1,1 +1,1 @@
-__bazı yazılımların teknik ayrıntılarına dair kaydettiğim notları içerir.__
+__bazı yazılımların ayrıntılarına dair kaydettiğim notları içerir.__
