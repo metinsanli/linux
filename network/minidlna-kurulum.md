@@ -62,3 +62,7 @@ Hope you enjoy!
 >metin@mt:~$ **sudo service minidlna force-reload**
 >Usage: /etc/init.d/minidlna {start|stop|status|restart|force-reload}
 
+edit this : /etc/default/minidlna
+<br>
+*USER="root"*
+
