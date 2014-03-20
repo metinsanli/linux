@@ -38,4 +38,4 @@
 <br><code>sudo apt-get install retext</code>&larr;
 <br><br>
 * **Calibre E-book Management**
-<table><tr><td>sudo python -c "import sys; py3 = sys.version_info[0] > 2; u = __import__('urllib.request' if py3 else 'urllib', fromlist=1); exec(u.urlopen('http://status.calibre-ebook.com/linux_installer').read()); main()"</td></tr></table>
+<table><tr><td>sudo -v && wget -nv --no-check-certificate -O- https://github.com/kovidgoyal/calibre/raw/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"</td></tr></table>
