@@ -73,4 +73,11 @@ $ **ssh -T git@github.com**
 
 -o-
 
+fatal: CRLF would be replaced by LF in
 
+very new to this so setting core.autocrlf to false didn't make too much sense to me. So for other newbies, go to the config file in you .git folder and add:
+
+[core]
+    autocrlf = false
+
+-o-
