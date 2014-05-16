@@ -39,3 +39,8 @@
 <br><br>
 * **Calibre E-book Management**
 <table><tr><td>sudo -v && wget -nv --no-check-certificate -O- https://github.com/kovidgoyal/calibre/raw/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"</td></tr></table>
+<br><br>
+* **Create Application Launcher and Add Icon**
+<br><code>sudo apt-get install --no-install-recommends gnome-panel</code>&larr;
+<br><code>sudo gnome-desktop-item-edit /usr/share/applications/ --create-new</code>&larr;
+<br><br>
