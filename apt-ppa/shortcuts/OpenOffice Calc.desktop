@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[tr]=/opt/openoffice4/program/logo.png
+Name[tr]=OpenOffice Calc
+Exec=/opt/openoffice4/program/scalc
+Comment[tr]=OpenOffice Calc
+Name=OpenOffice Calc
+Comment=OpenOffice Calc
+Icon=/opt/openoffice4/program/logo.png

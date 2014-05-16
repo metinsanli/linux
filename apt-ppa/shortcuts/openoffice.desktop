@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=OpenOffice
+GenericName=Office Software
+Comment=
+Exec=/opt/openoffice4/program/soffice
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/opt/openoffice4/program/logo.png
+Categories=GNOME;GTK;Office;

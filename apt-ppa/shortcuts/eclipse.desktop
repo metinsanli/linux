@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Eclipse
+Comment=Java IDE
+Exec=/opt/eclipse/eclipse
+Icon=/opt/eclipse/icon.xpm
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Development;
+OnlyShowIn=GNOME;Unity;
