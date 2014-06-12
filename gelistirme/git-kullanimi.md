@@ -81,3 +81,10 @@ very new to this so setting core.autocrlf to false didn't make too much sense to
     autocrlf = false
 
 -o-
+<br> 1512  git reset
+<br> 1513  git add --all
+<br>1514  git status
+<br>1515  git commit -m "a"
+<br>1516  git push -u origin master
+<br>1517  git status
+<br>1518  history
