@@ -1,0 +1,22 @@
+mkdir github & cd github
+git init
+cd .git
+nano config
+..
+[core]
+	autocrlf = false
+..
+ssh-keygen -t rsa -C metinsanli@gmail.com
+cd ~/.ssh
+ssh-add ~/.ssh/id_rsa sisteme ekle
+cat id_rsa.pub
+olusan ssh key kopyala
+githhub ayarlar SSH keys e ekle
+
+bugün si eüç hikaye anlatacağım büyütülecek birşey değil
+1 noktaları birleştirmek
+pahalı üniversiteyi  bırakıp kaligrafi dersi almaya başlar, fakat kendisine nasıl bir fayda sağlayacağını bilmeden. fakat 10 yıl sonra ilk mac i tasarlarken kaligrafi işine çok yarar ve diğer işletim sistemlerinden onu ayırır. snoktaları ileriye doğru bakarak birleştirmezsiniz. geriye bakarak bakarak birleştirebilirsiniz. bu noktada kalbinizin sesini dinlemelisiniz.
+2 sevgi ve kaybetmek
+kendi kurduğu şirketten 30 yaşında kovuldu. kovulduktan sonra çok zor sosyal baskı altında hissetti kendini ve bir süre sonra yaptığı işi gerçekten çok sevdiğini fark etti... daha sonra next ve pixar isimli iki şirket kurdu. apple next firmasını geliştirdiği teknolojiler nedeniyle satın aldı. ve apple a geri döndü. sevdiğiniz işi yapın. eğer ne olduğunu bilmiyorsanız aramaya devam edin. bulduğunuzda anlayacaksınız. çünkü sevdile işi yapmak yıllar geçtikçe sizi daha verimli kılıyor. ve daha mutlu...
+3 ölüm
+MAVİ20-2604
