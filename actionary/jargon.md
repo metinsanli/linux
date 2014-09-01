@@ -1,0 +1,1 @@
+instance : bir sınıftan oluşturulmuş nesne.

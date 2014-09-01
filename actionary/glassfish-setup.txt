@@ -1,0 +1,48 @@
+ÖNEMLİ!
+!1 - Oracle Java JDK önceden kurulu olmalı
+!2 - Komutlar terminale yazılacak
+
+-----------------------------
+Glassfish Application Server nasıl kurulur?
+
+sudo apt-get update
+sudo apt-get install unzip
+wget download.java.net/glassfish/4.0/release/glassfish-4.0.zip
+sudo unzip glassfish-4.0.zip -d /opt
+cd /opt/glassfish-4.0/bin
+sudo ./asadmin start-domain
+
+-----------------------------
+Ubuntu/Linux'ta Glassfish Application Service nasıl otomatik başlatılır?
+AÇIKLAMA : "glassfish" isimli (uzantısı olmayan!) script dosyasını kullanıyoruz.
+
+sudo cp glassfish /etc/init.d/ 
+cd /etc/init.d
+sudo chmod +x glassfish
+sudo update-rc.d glassfish defaults
+sudo reboot
+
+-----------------------------
+Glassfish Server admin şifresi nasıl değiştirilir?
+
+cd /opt/glassfish-4.0/bin
+sudo ./asadmin change-admin-password
+
+-----------------------------
+Farklı bir IP'den Glassfish Server'a erişim engelinin kaldırılması.
+
+cd /opt/glassfish-4.0/bin
+sudo ./asadmin enable-secure-admin
+
+-----------------------------
+Glassfish Application Service'i manuel başlatma/durdurma
+
+sudo service glassfish start
+sudo service glassfish stop
+sudo service glassfish restart
+
+-----------------------------
+Kaynaklar :
+http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
+https://www.digitalocean.com/community/tutorials/how-to-install-glassfish-4-0-on-ubuntu-12-04-3
+

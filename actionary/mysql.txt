@@ -1,0 +1,25 @@
+How can I renew or release an IP in Linux for eth0?
+
+To renew or release an IP address for the eth0 interface, enter:
+$ sudo dhclient -r eth0
+$ sud dhclient eth0
+
+-o-
+
+Other options in Linux to renew dhcp
+
+There is no need to restart network service. Above command should work with any Linux distro such as RHEL, Fedora, CentOS, Ubuntu and others. On a related note you can also try out the following commands:
+# ifdown eth0
+# ifup eth0
+### RHEL/CentOS/Fedora specific command ###
+# /etc/init.d/network restart 
+
+-o-
+mysql -u root -p
+
+
+grant all privileges on *.* 'root'@'%' identified by 'Wissen123';
+flush privileges;
+
+-o-
+
