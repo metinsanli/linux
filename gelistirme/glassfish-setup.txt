@@ -40,6 +40,14 @@ Glassfish Application Service'i manuel başlatma/durdurma
 sudo service glassfish start
 sudo service glassfish stop
 sudo service glassfish restart
+-----------------------------
+Glassfish Connection Pool'a MySQL sunucusunu ekleme
+
+/opt/glassfish4/glassfish/domains/domain1/lib/ext
+yoluna en guncel orn: mysql-connector-java-5.1.32.jar dosyasi ni kopyala
+
+sonra da konfigurasyonu yaparken bu property'i ekle
+add property > "driverClass"  "com.mysql.jdbc.Driver"
 
 -----------------------------
 Kaynaklar :
