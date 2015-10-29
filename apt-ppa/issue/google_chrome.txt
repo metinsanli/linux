@@ -1,0 +1,13 @@
+http://www.google.com/linuxrepositories/
+-o-
+Add Google's key,
+
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+
+Then install package from the chrome site, which should add the file '/etc/apt/sources.list.d/google-chrome.list' that will contain the following,
+
+### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+# You may comment out this entry, but any other modifications may be lost.
+deb http://dl.google.com/linux/chrome/deb/ stable main
+
+E.g., installing the package from Google should just auto-configure your sources.list for you.

@@ -1,0 +1,25 @@
+adobe flash plugin for web browsers
+-o-
+debian ın non-free repository i source.list e eklenir.
+
+
+
+Open up /etc/apt/sources.list, and you should see lines like the following (URLs will likely vary):
+
+deb http://http.us.debian.org/debian stable main contrib
+
+Simply add non-free to the respective URLs you wish to use, i.e.:
+
+ deb http://http.us.debian.org/debian stable main contrib non-free
+
+Running apt-get update will update your local repo with the package listing.
+
+-o-
+
+sonra yuklemesi kaliyor geri :)
+
+sudo apt-get install flashplugin-nonfree
+
+orijinaldir haa :D adobe un
+
+-o-

@@ -1,0 +1,14 @@
+-o-
+metin@debian:~$ sudo apt-get update 
+[sudo] password for metin: 
+metin is not in the sudoers file.  This incident will be reported.
+metin@debian:~$ ^C
+metin@debian:~$ ^C
+metin@debian:~$ 
+-o-
+
+If you want to add yourself into the sudoers so that you can use the sudo command, you can use the TTY and login as root. While as root open the file /etc/sudoers with your text editor (like nano) and this line:
+
+USER_NAME   ALL=(ALL) ALL
+
+Where USER_NAME is the username of the account you want to allow to have access to the sudo command.
