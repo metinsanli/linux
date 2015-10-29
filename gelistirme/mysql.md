@@ -31,13 +31,17 @@
 </blockquote>
 <p>Düzenlemeden sonra sırasıyla; <code>Ctrl+O</code> ardından <code>Enter</code> tuşlarına basarak kaydedin.<code> Ctrl+X</code> tuşlarına basarak editörden çıkın. </p>
 <blockquote><b>~$ </b><code>sudo service mysql restart</code></blockquote>
+</blockquote>
+
+<br><h3>Erişim ve Kullanıcı yetki işlemleri</h3>
+<blockquote>
 <p>MySQL servisi yeniden başladıktan sonra aşağıdaki seçeneklerden istediğiniz erişim yetkisini ayarlayabilirsiniz.</p>
 <p><b>A - </b>Sunucudaki veri tabanı ve tabloların hepsini tüm IP adreslerinin erişimine açmak için :</p>
 <blockquote>
 <b>~$ </b><code>mysql -u root -p</code><br>
 <b>mysql> </b><code>GRANT ALL PRIVILEGES ON &#42;&#46;&#42; &#39;root&#39;@&#39;%&#39; IDENTIFIED BY &#39;Sifre1234&#39;;</code><br>
 <b>mysql> </b><code>FLUSH PRIVILEGES;</code><br>
-<b>mysql> </b><code>exit</code>
+<b>mysql> </b><code>exit;</code>
 </blockquote>
 <p><b>B - </b>Sadece bir tane veri tabanının bir tane tablosunu belirli bir IP adresinin erişimine açmak için :</p>
 <p><i>! Bu ayarlama ile daha spesifik erişim izinleri oluşturulabilir.</i></p>
@@ -45,6 +49,13 @@
 <b>~$ </b><code>mysql -u root -p</code><br>
 <b>mysql> </b><code>GRANT ALL PRIVILEGES ON dbSirket&#46;tblSatis &#39;metin&#39;@&#39;192.168.2.23&#39; IDENTIFIED BY &#39;Sifre1234&#39;;</code><br>
 <b>mysql> </b><code>FLUSH PRIVILEGES;</code><br>
-<b>mysql> </b><code>exit</code>
+<b>mysql> </b><code>exit;</code>
 </blockquote>
+<p><b>C - </b>MySQL Server erişimine başka kullanıcılar eklemek için :</p>
+<blockquote>
+<b>~$ </b><code>mysql -u root -p</code><br>
+<b>mysql> </b><code>CREATE USER &#39;yenikullanici&#39;@&#39;%&#39; IDENTIFIED BY &#39;Sifre1234&#39;;</code><br>
+<b>mysql> </b><code>GRANT ALL PRIVILEGES ON &#42;&#46;&#42; TO &#39;yenikullanici&#39;@&#39;%&#39;;</code><br>
+<b>mysql> </b><code>FLUSH PRIVILEGES;</code><br>
+<b>mysql> </b><code>exit;</code>
 </blockquote>
