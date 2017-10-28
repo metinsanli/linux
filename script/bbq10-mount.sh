@@ -15,7 +15,7 @@ if echo "$HOME" | grep '/root'
     echo $mnt_source" is already mount."
     exit 1
    else
-    echo "trying mount from "$mnt_source" to "$mnt_source" ..."
+    echo "trying mount from "$mnt_source" to "$mnt_targt" ..."
     mount -t cifs $mnt_source $mnt_targt -o username=$mnt_uname,passwd=$mnt_psswd,uid=pi,gid=pi
 	if mount | grep $mnt_targt > /dev/null; then
 	 echo "success."
