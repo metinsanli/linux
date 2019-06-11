@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+        webserver:
+                image: tomcat:8.5
+                ports:
+                        - "8888:8080"
+
