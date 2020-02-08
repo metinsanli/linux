@@ -1,8 +1,7 @@
 ## USB Bellekten Debian Kurulumu
 
-* Bu işlem için Debian 7.3 (Wheezy) sürümüne ait dosyalar örnek olarak alınmıştır. Bu yöntem, dağıtımların web adresindeki *hd-media* klasörü altında bulunan her *boot.img.gz* dosyası ile yapılabilir.<br>
-* Öncelikle kullanmak istediğiniz mimari için gereken dosyayı indirin. [`64-bit`](http://ftp.nl.debian.org/debian/dists/wheezy/main/installer-amd64/current/images/hd-media/boot.img.gz)&nbsp;
-[`32-bit`](http://ftp.nl.debian.org/debian/dists/wheezy/main/installer-i386/current/images/hd-media/boot.img.gz)
+* Öncelikle kullanmak istediğiniz mimari için gereken dosyayı indirin. [`64-bit`](http://ftp.nl.debian.org/debian/dists/stable/main/installer-amd64/current/images/hd-media/boot.img.gz)&nbsp;
+[`32-bit`](http://ftp.nl.debian.org/debian/dists/stable/main/installer-i386/current/images/hd-media/boot.img.gz)
 * Kurulum sırasında gereken sistem dosyaları için internet bağlantısı gerekecektir.<br>
 
 __<big>`1`</big>__ Usb belleği takın. Sistem otomatik olarak bağlayacaktır *(mount edecektir)*.<br> 
@@ -24,4 +23,8 @@ __<big>`4`</big>__ Usb belleği bilgisayardan çıkartıp yeniden sisteme bilgis
 * <span style="color:green">$</span><span style="color:red"> **`sudo -s`**</span> &larr; *[root parolanızı girin.]*
 * <span style="color:green">#</span><span style="color:red"> **`zcat boot.img.gz > /dev/sdc1`**</span> &larr;
 
-__<big>`5`</big>__ İşlem tamamdır.
+__<big>`5`</big>__ İnternetten yükleme ISO dosyası veya Standart bir kurulum DVD/CD ISO dosyalarından biri indirilip usb belleğe kopyalanabilir.
+* [`NETINSTALL_ISO`](http://ftp.nl.debian.org/debian/dists/stable/main/installer-amd64/current/images/netboot/mini.iso)
+* [`CD/DVD_ISO`](https://cdimage.debian.org/debian-cd/current/)
+
+__<big>`6`</big>__ Tamamdır.
